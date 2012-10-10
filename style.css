@@ -19,20 +19,23 @@ legend{color:#000;}
 input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
 input,button,textarea,select{font-size:100%;}
 
+/* layout */
+#wrap {width:960px; margin:0 auto; background-color:#fff}
+
 /* Basic */
 h1{font-size:20px;font-weight:bold;line-height:28px;}
 h2 {font-size:18px;line-height:24px;font-weight:bold;}
-table {width:60%;}
+table {width:85%;}
 tr{text-align:center;}
 th{text-align:center;font-weight:bold;}
-td{text-align:center;width:12%;}
+td{text-align:center;width:17%;}
 li{margin-bottom:10px;}
 a{text-decoration:none;color:black;}
 
 /* header */
 #header {width:60%; height:135px;clear:both;}
-#header_left{width:16%; float:left;}
-#header_logo{width:45%;float:left;}
+#header_left{width:25%; float:left;}
+#header_logo{width:75%;float:left;}
 
 /* content */
 #content {width:100%;clear:both;}
